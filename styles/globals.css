@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+  html {
+    font-family: Proxima Nova, system-ui, sans-serif;
+  }
+
+  .bg-img{
+    background: url('https://mdbcdn.b-cdn.net/img/Photos/Others/background2.jpg');
+    
+  }
+}
