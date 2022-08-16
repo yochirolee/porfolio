@@ -20,27 +20,27 @@ export const Jumbotron = () => {
 
 								<div className="pt-4  font-semibold text-gray-500">
 									<h6 className="p-4">Skills</h6>
-									<div class="flex  justify-center flex-wrap gap-3 mb-4 ">
-										<span class="px-2 py-1 flex items-center text-xs rounded-md font-semibold text-green-500 bg-green-50">
+									<div className="flex  justify-center flex-wrap gap-3 mb-4 ">
+										<span className="px-2 py-1 flex items-center text-xs rounded-md font-semibold text-green-500 bg-green-50">
 											HTML
 										</span>
-										<span class="px-2 py-1 flex items-center text-xs rounded-md text-blue-600 font-semibold bg-blue-200">
+										<span className="px-2 py-1 flex items-center text-xs rounded-md text-blue-600 font-semibold bg-blue-200">
 											CSS
 										</span>
-										<span class="px-2 py-1 flex items-center text-xs rounded-md text-yellow-600 font-semibold bg-yellow-200">
+										<span className="px-2 py-1 flex items-center text-xs rounded-md text-yellow-600 font-semibold bg-yellow-200">
 											JAVASCRIPT
 										</span>
-										<span class="px-2 py-1 flex items-center text-xs rounded-md text-blue-300 font-semibold bg-blue-500">
+										<span className="px-2 py-1 flex items-center text-xs rounded-md text-blue-300 font-semibold bg-blue-500">
 											REACT
 										</span>
-										<span class="px-2 py-1 flex items-center text-xs rounded-md text-violet-600 font-semibold bg-violet-200">
+										<span className="px-2 py-1 flex items-center text-xs rounded-md text-violet-600 font-semibold bg-violet-200">
 											TAILWINDS CSS
 										</span>
 
-										<span class="px-2 py-1 flex items-center text-xs rounded-md text-gray-300 font-semibold bg-gray-400">
+										<span className="px-2 py-1 flex items-center text-xs rounded-md text-gray-300 font-semibold bg-gray-400">
 											NODE JS
 										</span>
-										<span class="px-2 py-1 flex items-center text-xs rounded-md text-red-600 font-semibold bg-red-200">
+										<span className="px-2 py-1 flex items-center text-xs rounded-md text-red-600 font-semibold bg-red-200">
 											SQL
 										</span>
 									</div>
@@ -63,7 +63,7 @@ export const Jumbotron = () => {
 				type="button"
 				data-mdb-ripple="true"
 				data-mdb-ripple-color="light"
-				class="inline-block px-6 py-2.5 mb-2 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out"
+				className="inline-block px-6 py-2.5 mb-2 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out"
 				style={{ backgroundColor: "#333" }}
 			>
 				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" class="w-4 h-4">

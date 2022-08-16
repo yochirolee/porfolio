@@ -4,7 +4,7 @@ import { Jumbotron } from "../components/ui/Jumbotron";
 export default function Home() {
 	return (
 		<>
-			<Head className="">
+			<Head >
 				<title>Porfolio - Yochiro Lee</title>
 				<meta name="description" content="Created by Yosho" />
 				<link rel="icon" href="/favicon.ico" />
