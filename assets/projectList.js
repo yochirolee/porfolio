@@ -1,10 +1,10 @@
 export const projectList = [
 	{
 		id: 0,
-		title: "Nextflies a netflix clone",
+		title: "Nextflies",
 		image: "../phonestore.png",
 		description: "",
-		tecnologies: "React, Tailwinds",
+		tecnologies: "React,Tailwinds,Css, NextJs",
 		github_url: "",
 		live_url: "https://nextflies.vercel.app",
 	},
@@ -13,13 +13,13 @@ export const projectList = [
 		title: "Phones Store",
 		image: "../mars.png",
 		description: "",
-		tecnologies: "React,Tailwinds,Css",
+		tecnologies: "React,Tailwinds,Css, NextJs",
 		github_url: "",
 		live_url: "https://storephone.vercel.app/publishPhone",
 	},
 	{
 		id: 0,
-		title: "Restaurant CubanFoodies",
+		title: "CubanFoodies",
 		image: "../mars.png",
 		description: "",
 		tecnologies: "React,Tailwinds,Css, NextJs",

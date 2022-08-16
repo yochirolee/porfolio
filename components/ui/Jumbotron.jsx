@@ -49,7 +49,7 @@ export const Jumbotron = () => {
 							</div>
 						</div>
 						<div className=" mt-6 ">
-							<h6 className="p-4">Projects</h6>
+							<h6 className="p-4  font-semibold text-gray-500">Projects</h6>
 							<div className="flex flex-col justify-around">
 								{projectList.map((project) => (
 									<Project key={project.id} project={project} />
