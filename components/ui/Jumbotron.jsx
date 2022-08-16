@@ -1,5 +1,6 @@
 import Project from "../alerts/project";
 import { projectList } from "../../assets/projectList";
+import Image from "next/image";
 export const Jumbotron = () => {
 	return (
 		<section className="p-6 md:p-12 text-center  shadow-lg rounded-md bg-img">
@@ -8,7 +9,7 @@ export const Jumbotron = () => {
 					<div className="block p-6 rounded-lg shadow-lg bg-white m-4">
 						<div className="md:flex md:flex-row">
 							<div className="md:w-96 w-36 flex justify-center items-center mb-6 lg:mb-0 mx-auto md:mx-0">
-								<img src="../perfil.jpg" className="rounded-full shadow-md" alt="woman avatar" />
+								<Image src="/perfil.jpg" className="rounded-full" alt="avatar" width={500} height={500} />
 							</div>
 							<div className="md:ml-6 mt-10 items-center align-center">
 								<p className="font-semibold text-xl lg:text-3xl mb-2 text-gray-800">
